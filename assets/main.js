@@ -15,6 +15,8 @@ let km = Number(prompt('Inserisci i chilometri che vuoi percorrere'))
 // Inserimento dell'età del passeggero
 let age = Number(prompt('Inserisci la tua età'))
 
+/* Inizializzazione valori predefiniti */
+
 // Prezzo al chilometro
 const costAtKm = 0.21
 
