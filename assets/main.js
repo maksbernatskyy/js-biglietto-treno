@@ -50,7 +50,7 @@ if (age < 18){
     console.log(finalCost);
 }
 
-
 // Mostro come output il prezzo totale del viaggio
+alert("Il prezzo finale è di €" + finalCost.toFixed(2))
 
 
