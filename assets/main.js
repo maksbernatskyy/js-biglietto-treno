@@ -22,7 +22,7 @@ const costAtKm = 0.21
 let finalCost = 0
 
 // Sconto
-let coupon = 0
+let discount = 0
 
 /* Calcolo del prezzo totale del viaggio */
 
@@ -32,13 +32,25 @@ console.log(baseCost)
 
 if (age < 18){
     // Applico lo sconto del 20% se il passeggero è minorenne
-    coupon = baseCost * 0.2
-    console.log(coupon)
-    finalCost = baseCost - coupon
+    discount = baseCost * 0.2
+    console.log(discount)
+    finalCost = baseCost - discount
     console.log(finalCost)
+
+} else if (age >= 65){
+    // Applico lo sconto del 40% se il passeggero è over 65
+    discount = baseCost * 0.4
+    console.log(discount)
+    finalCost = baseCost - discount
+    console.log(finalCost);
+
+} else{
+    // Non applico nessuno sconto
+    finalCost = baseCost
+    console.log(finalCost);
 }
 
-// Applico lo sconto del 40% se il passeggero è over 65
+
 // Mostro come output il prezzo totale del viaggio
 
 
