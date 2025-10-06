@@ -18,12 +18,19 @@ let age = Number(prompt('Inserisci la tua età'))
 // Prezzo al chilometro
 const costAtKm = 0.21
 
+// Prezzo finale
+let finalCost = 0
+
 /* Calcolo del prezzo totale del viaggio */
 
 // Calcolo il prezzo in base ai chilometri
 let baseCost = costAtKm * km
 console.log(baseCost)
-// Applico lo sconto del 20% se il passeggero è minorenne
+
+if (age < 18){
+    // Applico lo sconto del 20% se il passeggero è minorenne
+}
+
 // Applico lo sconto del 40% se il passeggero è over 65
 // Mostro come output il prezzo totale del viaggio
 
