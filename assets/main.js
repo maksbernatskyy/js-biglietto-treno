@@ -11,5 +11,8 @@ TOOLS:
 
 // Inserimento dei chilometri da percorrere
 let km = Number(prompt('Inserisci i chilometri che vuoi percorrere'))
+
 // Inserimento dell'età del passeggero
+let age = Number(prompt('Inserisci la tua età'))
+
 
